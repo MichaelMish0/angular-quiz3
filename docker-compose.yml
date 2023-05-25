@@ -1,0 +1,8 @@
+version: '2.3'
+services:
+  angular:
+    container_name: angular-compose
+    image: angular-compose
+    ports:
+      - 80:80
+
